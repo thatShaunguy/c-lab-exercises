@@ -13,3 +13,6 @@ Each file demonstrates a specific concept or lab activity.
 | `solve_cone.c` | Solves for cone volume and surface area. |
 | `three_digit_add.c` | Adds the digits of a three-digit number. |
 | `three_digit_reverse.c` | Reverses the digits of a three-digit number. |
+| `convert_roman_numeral` | Converts a number from 1-999 to roman numeral. |
+| `race_finder` | Outputs the location of a racer on a track using a given race time. |
+| `even_odd_display` | Displays all even and odd numbers between 0 and the given max. |
