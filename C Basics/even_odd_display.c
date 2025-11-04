@@ -11,7 +11,7 @@ int main ()
 	scanf("%d", &nLimit);
 	
 	//display even numbers
-	printf("%d total even values.\n", nLimit / 2 + 1);
+	printf("\n%d total even values.\n", nLimit / 2 + 1);
 	printf("Even numbers:\n");
 	do
 	{
@@ -23,8 +23,8 @@ int main ()
 	while (nEven <= nLimit);
 
 	//display odd numbers
-	printf("%d total odd values.\n", (nLimit + 1) / 2);
-	printf("\n\nOdd numbers:\n");
+	printf("\n\n%d total odd values.\n", (nLimit + 1) / 2);
+	printf("Odd numbers:\n");
 	do
 	{
 		printf("%d", nOdd);

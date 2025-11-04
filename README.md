@@ -16,3 +16,7 @@ Each file demonstrates a specific concept or lab activity.
 | `convert_roman_numeral` | Converts a number from 1-999 to roman numeral. |
 | `race_finder` | Outputs the location of a racer on a track using a given race time. |
 | `even_odd_display` | Displays all even and odd numbers between 0 and the given max. |
+| `convert_roman_numeral.c` | Converts a number from 1-999 to its roman numeral counterpart. |
+| `even_odd_display.c` | Outputs every even and odd number from 0 to an inputted upper bound. |
+| `find_max_min_loop.c` | Outputs the highest and lowest values amongst any number of user inputted values.|
+| `solve_exponent.c` | Solves for the value of an inputted base and exponent value. |

@@ -5,6 +5,7 @@ void toRoman (int nVal)
 	
 	int nLeft, nMid, nRight;
 	
+	// Splits the value into ones, tens, and hundreds place
 	nLeft = nVal / 100;
 	nMid = nVal / 10 % 10;
 	nRight = nVal % 10;
@@ -107,9 +108,11 @@ int main()
 {
 	int nVal;
 	
+	//Prompt user input
 	printf ("Input a number anywhere from 1-999: ");
 	scanf("%d", &nVal);
 	
+	//checks if number is within parameters. If true, run the function. If false, return 1.
 	if (nVal >= 1 && nVal <= 999) {
 		toRoman(nVal);
 		return 0;
